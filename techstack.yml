@@ -1,7 +1,8 @@
 repo_name: jadenblack/userin
 report_id: 5f41e4f56ce8f80252fa3fa9723de06a
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T17:18:51+00:00'
+timestamp: '2024-01-05T08:22:31+00:00'
 requested_by: nicolasdao
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jadenblack/userin
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -55,6 +57,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nicolas Dao
   last_updated_on: 2020-10-06 04:15:32.000000000 Z
@@ -67,6 +70,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nicolas Dao
   last_updated_on: 2019-03-10 09:15:26.000000000 Z
@@ -78,6 +82,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/userin
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -87,6 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/.github/workflows/npm-publish.yml
   detection_source: ".github/workflows/npm-publish.yml"
   last_updated_by: Nicolas Dao
   last_updated_on: 2020-09-14 09:14:37.000000000 Z
@@ -113,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nicolas Dao
   last_updated_on: 2019-03-10 09:15:26.000000000 Z
@@ -122,6 +129,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/src/_page/authorizationSection.html
   detection_source: src/_page/authorizationSection.html
   last_updated_by: Nicolas Dao
   last_updated_on: 2020-09-14 07:34:42.000000000 Z
@@ -134,6 +142,7 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nicolas Dao
   last_updated_on: 2020-10-10 10:53:27.000000000 Z
