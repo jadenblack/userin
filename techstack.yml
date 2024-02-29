@@ -1,0 +1,280 @@
+repo_name: jadenblack/userin
+report_id: 5f41e4f56ce8f80252fa3fa9723de06a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:03:30+00:00'
+requested_by: nicolasdao
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jadenblack/userin
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2019-03-10 09:15:26.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-06 04:15:32.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2019-03-10 09:15:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/userin
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/.github/workflows/npm-publish.yml
+  detection_source: ".github/workflows/npm-publish.yml"
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-09-14 09:14:37.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 8.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-09-14 07:34:42.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2019-03-10 09:15:26.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/src/_page/authorizationSection.html
+  detection_source: src/_page/authorizationSection.html
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-09-14 07:34:42.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+- name: chai-http
+  description: Extend Chai Assertion library with tests for http apis
+  package_url: https://www.npmjs.com/chai-http
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16767/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-03 15:02:11.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: passport-facebook
+  description: Facebook authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-facebook
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17972/default_5cd4226daecf35530a193ea8bd553edbe0c69ed1.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+- name: portscanner
+  description: Asynchronous port scanner for Node.js
+  package_url: https://www.npmjs.com/portscanner
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18182/default_2f5942d1b3e49e74ff0440e15198df1d91e6ad96.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-10 10:53:27.000000000 Z
+- name: raw-body
+  description: Get and validate the raw body of a readable stream
+  package_url: https://www.npmjs.com/raw-body
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-09-14 07:34:42.000000000 Z
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/jadenblack/userin/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Nicolas Dao
+  last_updated_on: 2020-10-14 22:03:35.000000000 Z
